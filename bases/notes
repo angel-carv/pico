@@ -1,0 +1,16 @@
+how I solved. 
+
+bDNhcm5fdGgzX3IwcDM1
+
+
+neo@turtcrusher69 bases % ls
+b64.txt  notes
+neo@turtcrusher69 bases % man base64
+
+zsh: suspended  man base64
+neo@turtcrusher69 bases % base64 -d -i b64.txt
+l3arn_th3_r0p35%                                                                                  neo@turtcrusher69 bases % 
+
+
+-i for input file
+-d to decrypt 
