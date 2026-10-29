@@ -117,6 +117,7 @@ def estimate_burn():
 +" and "+ str(mana_cost_high) +" stone(s) to project to\n\n")
   else:
       # TODO : could add option to list known stars
+      print(star_db_trial)
       print("\nStar not found.\n\n")
 
 
@@ -140,7 +141,7 @@ def enter_license():
 def check_key(key, username_trial):
 
     global key_full_template_trial
-
+    print(key_full_template_trial)
     if len(key) != len(key_full_template_trial):
         return False
     else:
